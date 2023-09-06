@@ -1,0 +1,17 @@
+*{
+    background-color: rgb(155, 206, 193);
+}
+
+.form_cargaDeDatos{
+    display: flex;
+    flex-direction: column;
+}
+
+.form_cargaDeDatos input{
+    background-color: white;
+    text-align: center;
+}
+
+.form_cargaDeDatos button{
+    margin: 2rem;
+}
