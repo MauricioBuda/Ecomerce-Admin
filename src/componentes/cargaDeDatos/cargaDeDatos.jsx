@@ -8,7 +8,7 @@ function CargaDeDatos() {
     const [loading, setLoading] = useState(false)
     const [name, setName] = useState('')
     const [category, setCategory] = useState('')
-    const [price, setPrice] = useState('$')
+    const [price, setPrice] = useState('')
     const [stock, setStock] = useState('')
     const [img, setImg] = useState('')
     const [descripcion, setDescripcion] = useState('')
@@ -62,7 +62,7 @@ if(loading){
         <input value={name} placeholder='Nombre del producto' onChange={(e)=>setName(e.target.value)} type='text'/>
 
         <label >Precio</label>
-        <input value={price} onChange={(e)=>setPrice( e.target.value)} type='text'/>
+        <input value={price} placeholder='$' onChange={(e)=>setPrice( e.target.value)} type='text'/>
 
         <label >Stock</label>
         <input value={stock} placeholder='Stock restante del producto' onChange={(e)=>setStock(e.target.value)} type='number'/>
