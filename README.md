@@ -1,6 +1,6 @@
 # Ecommerce - Tienda de ropa (administrador)
 
-Proyecto de práctica .
+Proyecto de práctica.
 
 ## Tabla de Contenidos
 
